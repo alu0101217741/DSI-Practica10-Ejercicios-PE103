@@ -1,7 +1,8 @@
 import * as net from 'net';
 
 /**
- * El programa se debe ejecutar de la siguiente forma: node dist/client.js mensaje_que_se_quiere_enviar
+ * Si el programa no tiene los parametros adecuados se indica se muestra un mensaje
+ * en pantalla indicandolo.
  */
 if (process.argv.length < 3) {
   console.log('The message must include at least one word');
