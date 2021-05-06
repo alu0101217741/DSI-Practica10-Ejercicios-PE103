@@ -1,0 +1,1 @@
+En este fichero se van a almacenar el historial de los mensajes.
